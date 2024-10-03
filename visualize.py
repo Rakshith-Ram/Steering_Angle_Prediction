@@ -40,8 +40,8 @@ transform = transforms.Compose([
 ])
 
 # Load the dataset
-csv_file = "/home/rakshithram/SDC_project/data.txt"
-root_dir = "/home/rakshithram/SDC_project/data"
+csv_file = "/home/rakshithram/Steering_Angle_Prediction/data.txt"
+root_dir = "/home/rakshithram/Steering_Angle_Prediction/data"
 dataset = SteeringDataset(csv_file=csv_file, root_dir=root_dir, transform=transform)
 data_loader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False)
 
@@ -68,7 +68,7 @@ def draw_steering_wheel_image(angle_deg, ax, steering_wheel_img):
     ax.axis('off')
 
 # Path to the steering wheel image
-steering_wheel_image_path = "/home/rakshithram/SDC_project/steering_wheel.png"
+steering_wheel_image_path = "/home/rakshithram/Steering_Angle_Prediction/steering_wheel.png"
 
 # Predict steering angle for each image and visualize in separate windows
 fig1, ax1 = plt.subplots(figsize=(3, 3))  # Steering wheel (predicted angle) window
@@ -112,7 +112,6 @@ for images, true_angle in data_loader:
     # Exit on pressing 'q'
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
 
 plt.show()
 
