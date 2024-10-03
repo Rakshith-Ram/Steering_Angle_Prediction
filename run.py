@@ -17,7 +17,7 @@ transform = transforms.Compose([
 # Initialize model and load the saved weights
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = AutonomousDrivingModel().to(device)
-model.load_state_dict(torch.load('/home/rakshithram/SDC_project/save/final_model.pth', map_location=device))
+model.load_state_dict(torch.load('/home/rakshithram/SDC_project/final_model.pth', map_location=device))
 model.eval()
 
 # Function to draw and rotate steering wheel image
