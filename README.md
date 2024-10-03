@@ -19,10 +19,10 @@ Data format is as follows: _filename.jpg angle,year-mm-dd hr:min:sec:millisec_
 
 ### Instructions:
 
-The [model.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/model.py) file contains the PyTorch implementation of the architecture.
+The [model.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/model.py)  file contains the PyTorch implementation of the architecture.
 
 Use **train.py** to train the model using the above architecture on the dataset.
 
-Use **run.py** to run the model on a recorded video or a live webcam feed.
+Use [run.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/run.py)  to run the model on a recorded video or a live webcam feed.
 
 Use **visualize.py** to run the model on the dataset and get the visualization of the steering angle.
