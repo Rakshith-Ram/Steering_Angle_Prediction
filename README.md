@@ -17,7 +17,7 @@ Approximately 63,000 images, 3.1GB. Data was recorded around Rancho Palos Verdes
 
 Data format is as follows: filename.jpg angle,year-mm-dd hr:min:sec:millisec
 
-The "model.py" contains the PyTorch implementation of the architecture.
+The 'model.py' contains the PyTorch implementation of the architecture.
 
 Use "train.py" to train the model using the above architecture on the dataset.
 
