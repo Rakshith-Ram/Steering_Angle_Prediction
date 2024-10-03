@@ -19,7 +19,7 @@ Data format is as follows: _filename.jpg angle,year-mm-dd hr:min:sec:millisec_
 
 ### Instructions:
 
-The **model.py** file contains the PyTorch implementation of the architecture.
+The [model.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/model.py) file contains the PyTorch implementation of the architecture.
 
 Use **train.py** to train the model using the above architecture on the dataset.
 
