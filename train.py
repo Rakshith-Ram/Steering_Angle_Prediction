@@ -13,7 +13,6 @@ warnings.filterwarnings("ignore")  # This will suppress all warnings
 
 from pytorch_model import AutonomousDrivingModel  # Importing the prebuilt model
 
-
 # Custom dataset class to load images and labels
 class SteeringDataset(Dataset):
     def __init__(self, csv_file, root_dir, transform=None):
