@@ -7,7 +7,7 @@ This is a PyTorch implementation of NVIDIAs model with some minor modifications.
 
 
 ### gif of the output:
-[Link](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/demo_on_dataset.gif)
+![](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/demo_on_dataset.gif)
 
 ### Download the dataset from here: 
 [Link](https://drive.google.com/file/d/1PZWa6H0i1PCH9zuYcIh5Ouk_p-9Gh58B/view?pli=1)
