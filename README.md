@@ -1,6 +1,7 @@
 # Steering Angle Prediction
 
-Click here for NVIDIAs article : https://developer.nvidia.com/blog/deep-learning-self-driving-cars/
+Click here for NVIDIAs article: https://developer.nvidia.com/blog/deep-learning-self-driving-cars/
+Access the paper: https://arxiv.org/pdf/1604.07316v1
 
 This is a PyTorch implementation of NVIDIAs model with some minor modifications. 
 
@@ -8,8 +9,11 @@ This is a PyTorch implementation of NVIDIAs model with some minor modifications.
 ### gif of the output:
 ![](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/demo_on_dataset.gif)
 
-### Download the dataset from here:
+### Download the dataset from here: [Link](https://drive.google.com/file/d/1PZWa6H0i1PCH9zuYcIh5Ouk_p-9Gh58B/view?pli=1)
 
+Approximately 63,000 images, 3.1GB. Data was recorded around Rancho Palos Verdes and San Pedro California.
+
+Data format is as follows: filename.jpg angle,year-mm-dd hr:min:sec:millisec
 
 
 Use python train.py to train the model
