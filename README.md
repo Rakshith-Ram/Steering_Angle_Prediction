@@ -15,12 +15,14 @@ This is a PyTorch implementation of NVIDIAs model with some minor modifications.
 
 Approximately 63,000 images, 3.1GB. Data was recorded around Rancho Palos Verdes and San Pedro California.
 
-Data format is as follows: filename.jpg angle,year-mm-dd hr:min:sec:millisec
+Data format is as follows: _filename.jpg angle,year-mm-dd hr:min:sec:millisec_
 
-The 'model.py' contains the PyTorch implementation of the architecture.
+### Instructions:
 
-Use "train.py" to train the model using the above architecture on the dataset.
+The **model.py** file contains the PyTorch implementation of the architecture.
 
-Use "run.py" to run the model on a recorded video or a live webcam feed.
+Use **train.py** to train the model using the above architecture on the dataset.
 
-Use "visualize.py" to run the model on the dataset and get the visualization of the steering angle.
+Use **run.py** to run the model on a recorded video or a live webcam feed.
+
+Use **visualize.py** to run the model on the dataset and get the visualization of the steering angle.
