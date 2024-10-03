@@ -127,7 +127,7 @@ for epoch in range(num_epochs):
     print(f"\nAfter Epoch ({epoch + 1}) --> Train Loss: {train_loss:.4f}, Validation Loss: {val_loss:.4f}")
 
 # Save model
-save_dir = "/home/rakshithram/Steering_Angle_Prediction/save/"
+save_dir = "/home/rakshithram/Steering_Angle_Prediction/"
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 model_save_path = os.path.join(save_dir, 'final_model.pth')
