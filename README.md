@@ -17,9 +17,10 @@ Approximately 63,000 images, 3.1GB. Data was recorded around Rancho Palos Verdes
 
 Data format is as follows: filename.jpg angle,year-mm-dd hr:min:sec:millisec
 
+The "model.py" contains the PyTorch implementation of the architecture.
 
-Use python3 "train.py" to train the model
+Use "train.py" to train the model using the above architecture on the dataset.
 
-Use python3 "run.py" to run the model on a live webcam feed
+Use "run.py" to run the model on a recorded video or a live webcam feed.
 
-Use python3 "run_dataset.py" to run the model on the dataset
+Use "visualize.py" to run the model on the dataset and get the visualization of the steering angle.
