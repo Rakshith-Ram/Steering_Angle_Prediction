@@ -48,7 +48,7 @@ data_loader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False)
 # Initialize model and load the saved weights
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = AutonomousDrivingModel().to(device)
-model.load_state_dict(torch.load('save/final_model.pth', map_location=device))
+model.load_state_dict(torch.load('final_model.pth', map_location=device))
 model.eval()
 
 # Function to draw and rotate steering wheel image
