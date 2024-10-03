@@ -1,6 +1,7 @@
 # Steering Angle Prediction
 
 Click here for NVIDIAs article: [Link](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/)
+
 Access the paper: [Link](https://arxiv.org/pdf/1604.07316v1)
 
 This is a PyTorch implementation of NVIDIAs model with some minor modifications. 
