@@ -45,8 +45,6 @@ fig2, ax2 = plt.subplots(figsize=(6, 3))  # Image window
 
 # Add titles to the windows
 fig1.suptitle("Predicted Steering Angle", fontsize=12)
-#fig2.suptitle("\nInput Image", fontsize=12)
-
 
 # Initialize video capture with the MP4 file
 video_file_path = "/home/rakshithram/SDC_project/sample.mp4"  # Change this to the path of your video file
@@ -57,7 +55,6 @@ if not cap.isOpened():
     print("\n Trying to detect webcam!")
     # Initialize the webcam (camera 0 by default)
     cap = cv2.VideoCapture(0)
-
 
 if not cap.isOpened():
     print("Error: Could not open webcam.")
