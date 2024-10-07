@@ -25,9 +25,7 @@ Use [train.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/ma
 
 Use [run.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/run.py)  to run the model on a recorded video or a live webcam feed.
 
-Use [visualize.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/visualize.py)  to run the model on the dataset and get the visualization of the steering angle.
-
-The `model.py` file contains the PyTorch implementation of the architecture.
+Use '[visualize.py]' (https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/visualize.py)  to run the model on the dataset and get the visualization of the steering angle.
 
 
 ### Credits
