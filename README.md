@@ -27,10 +27,8 @@ Use [run.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main
 
 Use [visualize.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/visualize.py)  to run the model on the dataset and get the visualization of the steering angle.
 
-```bash
-visualize.py
-```
-to run the model on the dataset and get the visualization of the steering angle.
+The `model.py` file contains the PyTorch implementation of the architecture.
+
 
 ### Credits
 - Credits: https://github.com/SullyChen/Autopilot-TensorFlow
