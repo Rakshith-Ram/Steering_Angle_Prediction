@@ -27,10 +27,10 @@ Use [run.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main
 
 Use [visualize.py](https://github.com/Rakshith-Ram/Steering_Angle_Prediction/blob/main/visualize.py)  to run the model on the dataset and get the visualization of the steering angle.
 
-Use 
-'''bash 
-visualize.py 
-'''  
+```bash
+git clone [repository-link]
+cd [repository-directory]
+```
 to run the model on the dataset and get the visualization of the steering angle.
 
 ### Credits
